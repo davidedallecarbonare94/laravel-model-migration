@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PageController@home')->name('home');
-Route::get('/', 'PageController@about')->name('about');
-Route::get('/', 'PageController@contacts')->name('contacts');
+Route::get('/', 'PageController@index')->name('index');
+Route::get('about', 'PageController@about')->name('about');
+Route::get('contacts', 'PageController@contacts')->name('contacts');

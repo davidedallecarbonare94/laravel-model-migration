@@ -13,11 +13,12 @@
         
     </head>
     <body>
-        <nav>
-            <a href="{{ route('home') }}"></a>
-            <a href="{{ route('contacts') }}"></a>
-            <a href="{{ route('about') }}"></a>
-        </nav>
         <h1>Flights</h1>
+        <nav>
+            <a href="{{ route('index') }}">Home</a>
+            <a href="{{ route('contacts') }}">Contacts</a>
+            <a href="{{ route('about') }}">About</a>
+        </nav>
+        
     </body>
 </html>
